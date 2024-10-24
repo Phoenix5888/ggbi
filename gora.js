@@ -4,6 +4,7 @@ let tree ="";
 for (let i=1; i<=t; i++) {
   for (let j=1; j<=t-i; j++) {
     
+    
     tree+=" "
   }
 

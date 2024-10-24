@@ -5,6 +5,7 @@ for (let c = 2; c <= g; c++) {
 
     for (let r = 2; r <= Math.sqrt(c); r++) {
         
+        
         if (c % r == 0) {
             sum += r + (r === c / r ? 0 : c / r)
         }
